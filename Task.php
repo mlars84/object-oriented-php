@@ -1,6 +1,9 @@
 <?php
 
-class Task
-{
-    
+class Task {
+    public $description;
 }
+
+$task = new Task();
+
+var_dump($task->description);
