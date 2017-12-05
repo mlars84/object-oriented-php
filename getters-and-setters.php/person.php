@@ -1,8 +1,9 @@
 <?php
 
-class Person {
-
-    public $name;
+class Person
+{
+    private $name;
+    private $age;
     
     public function __construct($name)
     {
@@ -25,6 +26,6 @@ class Person {
 
 $john = new Person('John Doe');
 
-$john->setAge(18);
+$john->setAge(17);
 
-var_dump();
+var_dump($john->getAge());
