@@ -1,6 +1,6 @@
 <?php
 
-namespace USI;
+namespace USI\Users;
 
 class Person
 {

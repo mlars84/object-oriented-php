@@ -2,6 +2,8 @@
 
 namespace USI;
 
+use USI\Users\Person;
+
 class Staff
 {
     protected $members = [];
