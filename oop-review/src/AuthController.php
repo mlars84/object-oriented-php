@@ -2,7 +2,10 @@
 
 namespace Acme;
 
-class AuthController
+use Acme\RespondsToUserRegistration;
+
+
+class AuthController implements RespondsToUserRegistration
 {
     //method injection
 //     public function register(RegisterUser $registration)
