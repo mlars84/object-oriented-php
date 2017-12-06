@@ -4,7 +4,6 @@ namespace Acme;
 
 use Acme\RespondsToUserRegistration;
 
-
 class AuthController implements RespondsToUserRegistration
 {
     //method injection
